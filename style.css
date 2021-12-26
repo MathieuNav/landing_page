@@ -16,6 +16,19 @@ h2 {
   color: #000614;
 }
 
+/* Header section */
+.nav {
+  margin: 0 40px 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.links {
+  justify-self: flex-end;
+}
+
 a {
   text-decoration: none;
   color: #7b9cd1;
@@ -35,6 +48,11 @@ button {
   border: none;
 }
 
+#sign:hover {
+  background-color: #fefdbc;
+  color: #000614;
+}
+
 figcaption {
   text-align: center;
   color: #000614;
@@ -45,24 +63,13 @@ figcaption {
   color: #fffff3;
 }
 
-.nav {
-  margin: 0 40px 0 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 18px;
-}
-
-.links {
-  justify-self: flex-end;
-}
-
 .presentation {
   margin: 0 40px 0 40px;
   padding: 20px 0 20px 0;
   display: flex;
 }
 
+/* Images middle section */
 .middle-light {
   margin: 0 40px 0 40px;
   background-color: #fffff3;
@@ -80,9 +87,10 @@ figcaption {
   border-radius: 8px;
 }
 
-.middle-dark {
+/* Quote section */
+.middle-quote {
   padding: 10px 30px;
-  background-color: #7b9cd1;
+  background-color: #fefdbc;
   color: #000614;
   font-size: 28px;
   font-style: italic;
@@ -97,4 +105,31 @@ blockquote {
   font-size: 18px;
   color: #000614;
   padding-right: 40px;
+}
+
+/* Newsletter section */
+.newsletter {
+  color: #fffff3;
+  margin: 60px 180px;
+  padding: 20px 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #627ca7;
+}
+
+#news {
+  border: solid 2px #fffff3;
+}
+
+#news:hover {
+  background-color: #000614;
+}
+
+/* Footer section */
+#copyright {
+  margin-bottom: 0;
+  padding: 10px 0;
+  text-align: center;
 }
