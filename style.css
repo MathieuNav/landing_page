@@ -70,7 +70,7 @@ figcaption {
 }
 
 /* Images middle section */
-.middle-light {
+.container-objects {
   margin: 0 40px 0 40px;
   background-color: #fffff3;
   color: #000614;
@@ -88,7 +88,7 @@ figcaption {
 }
 
 /* Quote section */
-.middle-quote {
+.container-quote {
   padding: 10px 30px;
   background-color: #fefdbc;
   color: #000614;
@@ -108,7 +108,7 @@ blockquote {
 }
 
 /* Newsletter section */
-.newsletter {
+.container-news {
   color: #fffff3;
   margin: 60px 180px;
   padding: 20px 0;
@@ -137,11 +137,11 @@ blockquote {
 /* Media query */
 @media (max-width: 800px) {
   .nav, .presentation, .objects,
-  .newsletter {
+  .container-news {
     flex-direction: column;
   }
 
-  .newsletter {
+  .container-news {
     margin: 0;
     padding: 10px;
     border-radius: 0;
@@ -153,7 +153,7 @@ blockquote {
     height: auto;
   }
 
-  .middle-quote {
+  .container-quote {
     padding: 10px 0;
   }
 
