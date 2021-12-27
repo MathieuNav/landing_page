@@ -133,3 +133,31 @@ blockquote {
   padding: 10px 0;
   text-align: center;
 }
+
+/* Media query */
+@media (max-width: 800px) {
+  .nav, .presentation, .objects,
+  .newsletter {
+    flex-direction: column;
+  }
+
+  .newsletter {
+    margin: 0;
+    padding: 10px;
+    border-radius: 0;
+  }
+
+  #telescope {
+    padding-top: 15px;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .middle-quote {
+    padding: 10px 0;
+  }
+
+  blockquote {
+    text-align: center;
+  }
+}
